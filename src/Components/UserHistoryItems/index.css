@@ -1,0 +1,118 @@
+.history-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  list-style-type: none;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.time-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .time-content-container {
+    flex-direction: row;
+  }
+}
+
+.time-container {
+  display: flex;
+}
+
+.browsing-time {
+  align-self: start;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748b;
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .browsing-time {
+    font-size: 14px;
+  }
+}
+
+.history-content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+  align-self: center;
+}
+
+.url-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .url-content-container {
+    flex-direction: row;
+  }
+}
+
+.browser-title {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 800;
+  margin: 5px;
+  color: #475569;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .browser-title {
+    margin: 10px;
+  }
+}
+
+.history-url {
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px;
+  color: #64748b;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .history-url {
+    margin: 10px;
+  }
+}
+.history-delete-container {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.browser-delete-icon {
+  height: 25px;
+  width: 25px;
+}
